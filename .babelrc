@@ -1,12 +1,12 @@
 {
     "presets": [
+        "@babel/preset-env",
         [
-            "env",
+            "@babel/preset-react",
             {
-                "modules": false
+                "runtime": "automatic"
             }
         ],
-        "react",
-        "stage-0"
+        "@babel/preset-typescript"
     ]
 }

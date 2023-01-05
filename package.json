@@ -2,7 +2,10 @@
   "name": "childproject",
   "version": "1.0.0",
   "main": "build/index.js",
-  "repository": "https://github.com/Rashiq50/childproject.git",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Rashiq50/childproject"
+  },
   "author": "rashiq",
   "license": "MIT",
   "scripts": {
